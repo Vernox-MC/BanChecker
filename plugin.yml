@@ -1,0 +1,13 @@
+name: BanChecker
+version: 1.0.0
+author: VernoxMC
+api: ["1.0.0"]
+main: VernoxMC.BanChecker.Main
+commands:
+  bcheck:
+    description: Shows info about bans
+    usage: /bcheck name
+    permission: bcheck.command
+permissions:
+  bcheck.command:
+    default: op
